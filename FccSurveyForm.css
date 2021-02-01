@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+
+div {
+    display: block;
+  
+  }
+  
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #1b1b32, rgb(177, 123, 248));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    background-color: rgb(195, 165, 235);
+  }
+
+  .input-textarea {
+    background-color: rgb(195, 165, 235);
+  }
+
+  .submit-button {
+    background-color: rgb(195, 165, 235);
+  }
+  

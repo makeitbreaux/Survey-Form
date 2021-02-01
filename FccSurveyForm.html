@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survey Form FCC</title>
+  <link rel="stylesheet" href="FccSurveyForm.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">Free Code Camp Project 2
+      <h1 id="title" class="text-center">Survey Form Project</h1>
+      <p id="description" class="description text-center">
+        Thank you for taking the time to look at my project</p>
+    </header>
+
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+    </div>
+
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+    </div>
+
+    <div class="form-group">
+      <p>Which option best describes your opinion?</p>
+      <select id="dropdown" name="opinion" class="form-control" required>
+        <option disabled selected value>Select current opinion</option>
+        <option value="I like it">I like it</option>
+        <option value="I am meh about it">I am meh about it</option>
+        <option value="I hate it">I hate it</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Would you recommend my work to a friend?</p>
+      <input name="user-recommend" value="definitely" type="radio" class="input-radio" unchecked>"Definitely"</label>
+      <input name="user-recommend" value="maybe" type="radio" class="input-radio" unchecked>"Maybe"</label>
+      <input name="user-recommend" value="hell no" type="radio" class="input-radio" unchecked>"Hell No"</label>
+    </div>
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+    </form>
+  </div>
+</div>
+</body>
+
+</html>
